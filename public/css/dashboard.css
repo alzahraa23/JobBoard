@@ -1,0 +1,125 @@
+/* Reset basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    flex: 1;
+}
+html ,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex:1;
+}
+
+
+/* Centering the title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Dashboard sections */
+.dashboard-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.dashboard-section p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.dashboard-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-section li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    color: #555;
+}
+
+.dashboard-section a.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.dashboard-section a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* resources/css/dashboard.css */
+
+.table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .dashboard-section {
+        padding: 15px;
+    }
+
+    .dashboard-section h2 {
+        font-size: 1.5em;
+    }
+
+    .dashboard-section p,
+    .dashboard-section li {
+        font-size: 1em;
+    }
+
+    .dashboard-section a.btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
